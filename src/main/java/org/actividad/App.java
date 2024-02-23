@@ -10,7 +10,7 @@ public class App {
     public static void main(String[] args) {
         // ------- Operaciones ------------
         //creo objeto operación
-       /* Operacion operacion1 = new Operacion();
+        Operacion operacion1 = new Operacion();
         operacion1.crearOperacion();
 
         operacion1.sumar();
@@ -19,18 +19,19 @@ public class App {
 
        operacion1.multiplicar();
 
-       operacion1.dividir(); */
+       operacion1.dividir();
 
 
         //------------ CUENTA ---------------
-        /* Cuenta cuenta = new Cuenta();
+         Cuenta cuenta = new Cuenta();
         cuenta.crearCuenta();
         cuenta.ingresar(2000);
         cuenta.retirar(500);
         cuenta.extraccionRapida();
         cuenta.consultarSaldo();
-        cuenta.consultarDatos(); */
+        cuenta.consultarDatos();
 
+        // ---------FIGURAS GEOMETRICAS -----------
         Circulo circulo = new Circulo(5);
 
         System.out.println("El área del circulo es: " + circulo.calcularArea());
